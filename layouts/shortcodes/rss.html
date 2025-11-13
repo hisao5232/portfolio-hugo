@@ -1,0 +1,11 @@
+{{ $url := .Get 0 }}
+{{ $feed := getJSON $url }}
+
+<ul>
+  {{ range first 10 $feed.channel.item }}
+    <li>
+      <a href="{{ .link }}" target="_blank">{{ .title }}</a><br>
+      <small>{{ .pubDate }}</small>
+    </li>
+  {{ end }}
+</ul>

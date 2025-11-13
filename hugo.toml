@@ -1,0 +1,62 @@
+baseURL = "https://hisao5232.github.io/"
+languageCode = 'ja'
+title = 'My New Hugo Site'
+theme = "papermod"
+defaultContentLanguage = "ja"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 5
+  
+[params]
+  env = "production"
+  title = "Hisao's Portfolio"
+  description = "Zenn記事とGitHubプロジェクトをまとめたポートフォリオ"
+  author = "Hisao"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  # ホーム画面の紹介文
+  homeInfoParams = { Title = "こんにちは 👋", Content = "ZennやGitHubでの活動をまとめています。" }
+
+  # SNSリンク
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/hisao5232"
+  [[params.socialIcons]]
+    name = "zenn"
+    url = "https://zenn.dev/hisao5232"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://x.com/<your-twitter-handle>"
+
+# メニュー設定
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Zenn記事"
+    url = "/zenn/"
+    weight = 1
+  [[menu.main]]
+    identifier = "repos"
+    name = "GitHubリポジトリ"
+    url = "/repos/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[[params.profileMode.buttons]]
+  name = "Zenn"
+  url = "https://zenn.dev/hisao5232"
+
+[[params.profileMode.buttons]]
+  name = "GitHub"
+  url = "https://github.com/hisao5232"
