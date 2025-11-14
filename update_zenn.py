@@ -37,4 +37,5 @@ def write_file(path, content):
 if __name__ == "__main__":
     print("Zenn 記事を取得中...")
     zenn_md = fetch_zenn_articles()
-    write_file(Z_
+    write_file(ZENN_OUTPUT, zenn_md)
+    print("Zenn 記事一覧を更新しました！")
