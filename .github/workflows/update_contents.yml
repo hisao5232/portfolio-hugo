@@ -1,0 +1,36 @@
+name: Update Zenn & GitHub Lists
+
+on:
+  workflow_dispatch:   # 手動実行
+  schedule:
+    - cron: "0 19 * * *"  # 毎日 04:00 JST（UTC19:00）
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          pip install feedparser requests
+
+      - name: Run update script
+        run: |
+          python update_zenn.py
+          python update_github.py
+
+      - name: Commit and Push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Auto update Zenn & GitHub lists" || echo "No changes to commit"
+          git push

@@ -1,98 +1,124 @@
----
-title: "GitHub リポジトリ"
----
+# 💻 GitHub Repositories
 
-こちらは自動取得している GitHub リポジトリ一覧です。
-
-（この下は update_github.py により自動更新されます）
+公開リポジトリ一覧です。
 
 ## [amazon_scrapying](https://github.com/hisao5232/amazon_scrapying)
-Amazonの商品データのスクレイピング
+- ⭐ Stars: 0
+- 📝 Amazonの商品データのスクレイピング
 
 ## [BackTestLab](https://github.com/hisao5232/BackTestLab)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [custom_tkinter_todo_app](https://github.com/hisao5232/custom_tkinter_todo_app)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [Discord_bot_ticker](https://github.com/hisao5232/Discord_bot_ticker)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [django-todo-docker](https://github.com/hisao5232/django-todo-docker)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [Flask-todo-docker](https://github.com/hisao5232/Flask-todo-docker)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [flask_render](https://github.com/hisao5232/flask_render)
-for render web application
+- ⭐ Stars: 0
+- 📝 for render web application
 
 ## [flask_todo_render](https://github.com/hisao5232/flask_todo_render)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [flask_webapp_render](https://github.com/hisao5232/flask_webapp_render)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [get-stock-docker-discord](https://github.com/hisao5232/get-stock-docker-discord)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [google_picture](https://github.com/hisao5232/google_picture)
-selenium_google_picture_scraping
+- ⭐ Stars: 0
+- 📝 selenium_google_picture_scraping
 
 ## [hato](https://github.com/hisao5232/hato)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [indeed](https://github.com/hisao5232/indeed)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [jpx-hot-stocks](https://github.com/hisao5232/jpx-hot-stocks)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [kisyocyo_data](https://github.com/hisao5232/kisyocyo_data)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [kivy_block_game](https://github.com/hisao5232/kivy_block_game)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [LINE_messege_for_training](https://github.com/hisao5232/LINE_messege_for_training)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [LINE_weather_bot](https://github.com/hisao5232/LINE_weather_bot)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [NewsSummarizer](https://github.com/hisao5232/NewsSummarizer)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [personal-django-todo](https://github.com/hisao5232/personal-django-todo)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [portfolio-hugo](https://github.com/hisao5232/portfolio-hugo)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [pygame_platformer](https://github.com/hisao5232/pygame_platformer)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [QuickNewsSummary](https://github.com/hisao5232/QuickNewsSummary)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [rabby_scrayping](https://github.com/hisao5232/rabby_scrayping)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [React-todo](https://github.com/hisao5232/React-todo)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [React-todo-docker](https://github.com/hisao5232/React-todo-docker)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [rikunavi_scraping](https://github.com/hisao5232/rikunavi_scraping)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [scrapy](https://github.com/hisao5232/scrapy)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [selenium_picture_data](https://github.com/hisao5232/selenium_picture_data)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
 ## [simple-chat-app](https://github.com/hisao5232/simple-chat-app)
-（説明なし）
+- ⭐ Stars: 0
+- 📝 説明なし
 
