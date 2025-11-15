@@ -1,4 +1,4 @@
-baseURL = "https://<cloudflare-pages-project>.pages.dev/"
+baseURL = "https://portfolio-hugo-90w.pages.dev"
 languageCode = 'ja'
 title = 'My New Hugo Site'
 theme = "papermod"
