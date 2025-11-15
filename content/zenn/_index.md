@@ -1,3 +1,7 @@
+---
+title: "Zenn Articles"
+---
+
 # 📘 Zenn Articles
 
 最新の記事一覧です。
