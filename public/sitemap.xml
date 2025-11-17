@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://portfolio-hugo-90w.pages.dev/github/</loc>
+    <loc>http://localhost:1313/github/</loc>
   </url><url>
-    <loc>https://portfolio-hugo-90w.pages.dev/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://portfolio-hugo-90w.pages.dev/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://portfolio-hugo-90w.pages.dev/repos/</loc>
+    <loc>http://localhost:1313/repos/</loc>
   </url><url>
-    <loc>https://portfolio-hugo-90w.pages.dev/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://portfolio-hugo-90w.pages.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url><url>
-    <loc>https://portfolio-hugo-90w.pages.dev/zenn/</loc>
+    <loc>http://localhost:1313/zenn/</loc>
   </url>
 </urlset>

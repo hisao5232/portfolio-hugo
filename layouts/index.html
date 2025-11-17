@@ -1,0 +1,16 @@
+{{ define "main" }}
+  {{ $hero := .Params.hero }}
+
+  {{ if $hero }}
+  <section class="hero" style="background-image: url('{{ $hero.image }}'); background-size: cover; background-position: center; padding: 6rem 2rem; text-align: center; color: white;">
+    <h1>{{ $hero.title }}</h1>
+    <p>{{ $hero.subtitle }}</p>
+  </section>
+  {{ end }}
+
+  <main class="main">
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+  </main>
+{{ end }}

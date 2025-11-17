@@ -1,0 +1,79 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+
+        
+            
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"  xml:lang="ja"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+
+        
+
+        
+            <language>ja</language>
+        
+
+        
+            <lastBuildDate>Mon, 01 Jan 0001 00:00:00 UTC</lastBuildDate>
+        
+
+        
+            <link>http://localhost:1313/github/</link>
+        
+
+        
+            <atom:link href="http://localhost:1313/github/rss.xml" hreflang="ja" rel="self" type="application/rss+xml"/>
+        
+
+        
+            
+
+            <atom:link href="http://localhost:1313/github/" hreflang="ja" rel="alternate" type="text/html"/>
+        
+            
+
+            <atom:link href="http://localhost:1313/github/rss.xml" hreflang="ja" rel="alternate" type="application/rss+xml"/>
+        
+
+        
+
+        
+
+        
+            <title>Go out into PG world</title>
+        
+
+        
+
+        
+    </channel>
+</rss>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on My New Hugo Site</title>
-    <link>https://portfolio-hugo-90w.pages.dev/tags/</link>
-    <description>Recent content in Tags on My New Hugo Site</description>
-    <generator>Hugo -- 0.152.0</generator>
+    <title>Tags on go-pro-world.net</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on go-pro-world.net</description>
+    <generator>Hugo</generator>
     <language>ja</language>
-    <atom:link href="https://portfolio-hugo-90w.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

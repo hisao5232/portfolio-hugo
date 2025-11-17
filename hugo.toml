@@ -1,62 +1,34 @@
 baseURL = "https://go-pro-world.net/"
-languageCode = 'ja'
-title = 'My New Hugo Site'
-theme = "papermod"
+languageCode = "ja"
+title = "Go out into PG world"
+theme = "paige"
 defaultContentLanguage = "ja"
 enableRobotsTXT = true
 
+# ページネーション
 [pagination]
-  pagerSize = 5
-  
+  pagerSize = 10
+
+# サイト情報
 [params]
-  env = "production"
-  title = "Hisao's Portfolio"
-  description = "Zenn記事とGitHubプロジェクトをまとめたポートフォリオ"
   author = "Hisao"
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  defaultTheme = "auto"
-  disableThemeToggle = false
+  description = "Zenn記事とGitHubプロジェクトをまとめたポートフォリオ"
+  customCSS = ["css/custom.scss"]
+  
+# ソーシャルリンク
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/hisao5232"
 
-  # ホーム画面の紹介文
-  homeInfoParams = { Title = "こんにちは 👋", Content = "ZennやGitHubでの活動をまとめています。" }
+[[params.social]]
+  name = "zenn"
+  url  = "https://zenn.dev/hisao5232"
 
-  # SNSリンク
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/hisao5232"
-  [[params.socialIcons]]
-    name = "zenn"
-    url = "https://zenn.dev/hisao5232"
-  [[params.socialIcons]]
-    name = "twitter"
-    url = "https://x.com/<your-twitter-handle>"
+[[params.social]]
+  name = "twitter"
+  url  = "https://x.com/<your-twitter-handle>"
 
-# メニュー設定
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Zenn記事"
-    url = "/zenn/"
-    weight = 1
-  [[menu.main]]
-    identifier = "repos"
-    name = "GitHubリポジトリ"
-    url = "/repos/"
-    weight = 2
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 3
-
-[[params.profileMode.buttons]]
-  name = "Zenn"
-  url = "https://zenn.dev/hisao5232"
-
-[[params.profileMode.buttons]]
-  name = "GitHub"
-  url = "https://github.com/hisao5232"
+# Markdown内の生HTMLを安全に表示する設定
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true

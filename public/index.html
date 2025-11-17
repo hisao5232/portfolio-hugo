@@ -1,265 +1,1154 @@
-<!DOCTYPE html>
-<html lang="ja" dir="auto" data-theme="auto">
+
+
+
+
+
+
+
+
+
+<!doctype html>
+
+
+
+
+
+
+<html    lang="ja" >
+
+    
+
+
+
+
+    
+
+    
+        
+            
+        
+
+        
+            
+        
+    
+
+
+
 
 <head>
-	<meta name="generator" content="Hugo 0.152.0"><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>My New Hugo Site</title>
-
-<meta name="description" content="Zenn記事とGitHubプロジェクトをまとめたポートフォリオ">
-<meta name="author" content="Hisao">
-<link rel="canonical" href="https://portfolio-hugo-90w.pages.dev/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://portfolio-hugo-90w.pages.dev/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://portfolio-hugo-90w.pages.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://portfolio-hugo-90w.pages.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://portfolio-hugo-90w.pages.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://portfolio-hugo-90w.pages.dev/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://portfolio-hugo-90w.pages.dev/index.xml" title="rss">
-<link rel="alternate" hreflang="ja" href="https://portfolio-hugo-90w.pages.dev/">
-<noscript>
+	<meta name="generator" content="Hugo 0.152.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
+        body {
+            font-family: 'Roboto', sans-serif;
         }
-
     </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
 
-            .list {
-                background: var(--theme);
-            }
+    
 
-            .toc {
-                background: var(--entry);
-            }
-        }
 
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
 
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
-    }
 
-</script><meta property="og:url" content="https://portfolio-hugo-90w.pages.dev/">
-  <meta property="og:site_name" content="My New Hugo Site">
-  <meta property="og:title" content="My New Hugo Site">
-  <meta property="og:description" content="Zenn記事とGitHubプロジェクトをまとめたポートフォリオ">
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8">
+<meta content="Go out into PG world" name="apple-mobile-web-app-title">
+
+
+
+
+
+
+
+<meta content="#0d6efd" name="theme-color">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+
+<meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="Go out into PG world">
+  <meta property="og:title" content="Hisao&#39;s Portfolio">
+  <meta property="og:description" content="このサイトでは、私の Zenn 記事や GitHub プロジェクトをまとめています。 最新の記事やリポジトリは以下からご覧ください。">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="website">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="My New Hugo Site">
-<meta name="twitter:description" content="Zenn記事とGitHubプロジェクトをまとめたポートフォリオ">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "My New Hugo Site",
-  "url": "https://portfolio-hugo-90w.pages.dev/",
-  "description": "Zenn記事とGitHubプロジェクトをまとめたポートフォリオ",
-  "logo": "https://portfolio-hugo-90w.pages.dev/favicon.ico",
-  "sameAs": [
-      "https://github.com/hisao5232", "https://zenn.dev/hisao5232", "https://x.com/\u003cyour-twitter-handle\u003e"
-  ]
-}
-</script>
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hisao&#39;s Portfolio">
+  <meta name="twitter:description" content="このサイトでは、私の Zenn 記事や GitHub プロジェクトをまとめています。 最新の記事やリポジトリは以下からご覧ください。">
+
+
+
+    
+        <title>Hisao’s Portfolio · Go out into PG world</title>
+    
+
+    
+
+
+
+
+
+
+
+    <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+
+
+
+    <link href="/favicon-96x96.png" rel="icon" sizes="96x96" type="image/png">
+
+
+
+    <link href="/favicon.ico" rel="shortcut icon">
+
+
+
+    <link href="/favicon.svg" rel="icon" type="image/svg+xml">
+
+
+
+    <link href="/web-app-manifest-192x192.png" rel="icon" type="image/png">
+
+
+
+    <link href="/web-app-manifest-512x512.png" rel="icon" type="image/png">
+
+
+
+    <link href="/site.webmanifest" rel="manifest">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+        
+        
+        
+
+        
+
+        
+    
+
+    
+
+    
+
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/paige.a0bd9db0143a23deda20b70c3a830f0b96285222.min.7e5844af77ca2d18845aa6cc7e78fe77ec4073728fe53181eeb7c38293a1bc7b.css"  integrity="sha256-flhEr3fKLRiEWqbMfnj&#43;d&#43;xAc3KP5TGB7rfDgpOhvHs="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+        
+        
+        
+        
+
+        
+
+        
+    
+
+    
+        
+
+        
+    
+
+    
+
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap/paige.37b3fc66686a7163af8180c5fb0fc6ab835321eb.min.90c4c73a5ddf76cf66b04df8e3422cb32b261a91b8768e3807bd11b85e20d1ef.css"  integrity="sha256-kMTHOl3fds9msE3440IssysmGpG4do44B70RuF4g0e8="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+    
+
+
+<link  crossorigin="anonymous"  href="/css/paige/bootstrap-icons/bootstrap-icons.min.93276a5444db3cc8ad19a40f7d58eee71b335d21a674536a7d078bc6417c610e.css"  integrity="sha256-kydqVETbPMitGaQPfVju5xszXSGmdFNqfQeLxkF8YQ4="   referrerpolicy="no-referrer"  rel="stylesheet">
+
+
+
+
+
+    <link href="/rss.xml" rel="alternate" type="application/rss&#43;xml">
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
 </head>
-<body class="list" id="top">
-    <header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="https://portfolio-hugo-90w.pages.dev/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
+
+    <body>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col mt-3" id="paige-site" >
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    <header id="paige-site-header">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+
+        
+            <div class="display-1 fw-bold  text-center" id="paige-site-title">
+                <a class="text-body text-decoration-none" href="/">Go out into PG world</a>
             </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="https://portfolio-hugo-90w.pages.dev/zenn/" title="Zenn記事">
-                    <span>Zenn記事</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://portfolio-hugo-90w.pages.dev/repos/" title="GitHubリポジトリ">
-                    <span>GitHubリポジトリ</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://portfolio-hugo-90w.pages.dev/about/" title="About">
-                    <span>About</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main"> 
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>こんにちは 👋</h1>
+        
+
+        
+
+        
+            
+                
+
+                
+                    
+                
+                    
+                
+
+                
+
+                <nav aria-label="メニュー" class="paige-row-tall" id="paige-site-menu">
+                    <ul class="align-items-center justify-content-center nav ">
+                        
+
+                        <li class="nav-item">
+                            <a  aria-current="page"  class=" active  fw-bold text-body   nav-link  text-decoration-underline " href="/">ホーム</a>
+                        </li>
+
+                        
+                            
+
+                            
+                            
+                            
+
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/github/" ></a>
+                            </li>
+                        
+                            
+
+                            
+                            
+                            
+
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/about/" >About Me</a>
+                            </li>
+                        
+                            
+
+                            
+                            
+                            
+
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/repos/" >GitHub リポジトリ</a>
+                            </li>
+                        
+                            
+
+                            
+                            
+                            
+
+                            
+
+                            <li class="nav-item">
+                                <a  class=" nav-link  text-decoration-underline " href="/zenn/" >Zenn Articles</a>
+                            </li>
+                        
+                    </ul>
+                </nav>
+            
+        
+
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
     </header>
-    <div class="entry-content">
-        ZennやGitHubでの活動をまとめています。
-    </div>
-    <footer class="entry-footer">
-        <div class="social-icons" >
-    <a href="https://github.com/hisao5232" target="_blank" rel="noopener noreferrer me"
-        title="Github">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path
-        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-    </path>
-</svg>
-    </a>
-    <a href="https://zenn.dev/hisao5232" target="_blank" rel="noopener noreferrer me"
-        title="Zenn">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-</svg>
-    </a>
-    <a href="https://x.com/%3cyour-twitter-handle%3e" target="_blank" rel="noopener noreferrer me"
-        title="Twitter">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-    stroke-linecap="round" stroke-linejoin="round">
-    <path
-        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-    </path>
-</svg>
-    </a>
+
+
+                    
+  
+
+  
+  <section class="hero" style="background-image: url('/images/hero.webp'); background-size: cover; background-position: center; padding: 6rem 2rem; text-align: center; color: white;">
+    <h1></h1>
+    <p></p>
+  </section>
+  
+
+  <main class="main">
+    <div class="post-content">
+      <div class="center">
+このサイトでは、私の Zenn 記事や GitHub プロジェクトをまとめています。
+<p>最新の記事やリポジトリは以下からご覧ください。</p>
 </div>
+    </div>
+  </main>
+
+                    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    <footer id="paige-site-footer">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+
+        
+
+        
+
+        
+            <p class="paige-row-short text-center text-secondary" id="paige-site-credit"><a class="link-secondary text-decoration-none" href="https://github.com/willfaught/paige">Paige Theme</a></p>
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
 
     </footer>
-</article>
-    </main>
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-<footer class="footer">
-        <span>&copy; 2025 <a href="https://portfolio-hugo-90w.pages.dev/">My New Hugo Site</a></span> · 
+    
 
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
+    
 
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+                </div>
+            </div>
+        </div>
+
         
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+
+
+<script  crossorigin="anonymous"   defer  integrity="sha256-lnYgfMtDEqzvfYDyDylc56eVUyPF14hCKXmNsVXCXKQ="   referrerpolicy="no-referrer"  src="/js/paige/bootstrap/bootstrap.bundle.min.9676207ccb4312acef7d80f20f295ce7a7955323c5d7884229798db155c25ca4.js" ></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
         
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
+    
 
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
+    
 
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
+    
+        
+    
 
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
+    
 
-</script>
-</body>
+    
 
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    
+
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+
+    
+        
+    
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","abstract":" このサイトでは、私の Zenn 記事や GitHub プロジェクトをまとめています。 最新の記事やリポジトリは以下からご覧ください。","articleSection":"Hisao’s Portfolio","headline":"Hisao’s Portfolio","inLanguage":"ja","name":"Hisao’s Portfolio","timeRequired":"PT1M","url":"http://localhost:1313/","wordCount":6}</script>
+
+
+
+<noscript>JavaScriptが必要です</noscript>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+    </body>
 </html>

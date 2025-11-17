@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+/* Bootstrap のフォント変数を上書き */
+:root {
+    --bs-body-font-family: 'Noto Sans', sans-serif !important;
+}
+
+/* 念のため body にも適用 */
+body {
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+/* 中央寄せ */
+.center {
+    text-align: center !important;
+}

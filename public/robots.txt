@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: https://portfolio-hugo-90w.pages.dev/sitemap.xml
