@@ -2,8 +2,6 @@ name: Update Zenn & GitHub Lists
 
 on:
   workflow_dispatch:   # 手動実行
-  schedule:
-    - cron: "0 19 * * *"  # 毎日 04:00 JST（UTC19:00）
 
 jobs:
   update:
